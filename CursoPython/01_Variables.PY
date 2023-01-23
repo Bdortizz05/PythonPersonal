@@ -1,5 +1,3 @@
-# Variables
-
 my_string_variable = "My variable of text "
 print(my_string_variable)
 

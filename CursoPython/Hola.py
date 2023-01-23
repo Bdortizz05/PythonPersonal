@@ -6,12 +6,6 @@ Primeras dos horas de curso de   https://www.youtube.com/watch?v=Kp4Mvapo5kc&t=1
 
 """
 
-print("prueba hola mundo")
-
-Texto = "Hola mundo"
-
-print  (type(Texto))
-
 # Operations
 
 print(2 + 3)   # addition(+)
@@ -23,15 +17,23 @@ print(3 % 2)   # modulus(%)
 print(3 // 2)  # Floor division operator(//)
 
 # Checking data types
+# Different python data types
+# Let's declare variables with various data types
 
-print(type(10))                  # Int
-print(type(3.14))                # Float
-print(type(1 + 3j))              # Complex
-print(type('Asabeneh'))          # String
-print(type([1, 2, 3]))           # List
-print(type({'name':'Asabeneh'})) # Dictionary
-print(type({9.8, 3.14, 2.7}))    # Set
-print(type((9.8, 3.14, 2.7)))    # Tuple
+first_name = 'Asabeneh'     # str
+last_name = 'Yetayeh'       # str
+country = 'Finland'         # str
+city= 'Helsinki'            # str
+age = 250                   # int, it is not my real age, don't worry about it
 
-
-
+# Printing out types
+print(type('Asabeneh'))     # str
+print(type(first_name))     # str
+print(type(10))             # int
+print(type(3.14))           # float
+print(type(1 + 1j))         # complex
+print(type(True))           # bool
+print(type([1, 2, 3, 4]))     # list
+print(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict
+print(type((1,2)))                                              # tuple
+print(type(zip([1,2],[3,4])))                                   # set

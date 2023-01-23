@@ -23,7 +23,7 @@ print(3 // 2)  # Floor division operator(//)
 first_name = 'Asabeneh'     # str
 last_name = 'Yetayeh'       # str
 country = 'Finland'         # str
-city= 'Helsinki'            # str
+city    = 'Helsinki'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 
 # Printing out types

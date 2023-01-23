@@ -27,5 +27,9 @@ print(type(my_str_to_int_variable))
 
 # Concatenacion  de variable en un Print
 
-print (my_bool_number,my_str_to_int_variable,my_int_variable)
+print (my_bool_<number,my_str_to_int_variable,my_int_variable)
+
+# len "funcion para validar el tamaño de la variable"
+print(len(my_string_variable))
+
 

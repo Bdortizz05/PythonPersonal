@@ -1,0 +1,104 @@
+[33mcommit a8a777b636032952b1029f2c01f2239b17e08a77[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Danilo <bdortiz05@ucatolica.edu.co>
+Date:   Sun Jan 22 20:54:59 2023 -0500
+
+    Finalizado el trabajo el dia de hoy
+
+[1mdiff --git a/CursoPython/01_Variables.PY b/CursoPython/01_Variables.PY[m
+[1mindex 0adc5a1..06b5cd7 100644[m
+[1m--- a/CursoPython/01_Variables.PY[m
+[1m+++ b/CursoPython/01_Variables.PY[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-#Variables[m
+[32m+[m[32m# Variables[m
+ [m
+ my_string_variable = "My variable of text "[m
+ print(my_string_variable)[m
+[36m@@ -11,8 +11,9 @@[m [mprint(type(my_int_variable))[m
+ my_bool_number = True[m
+ print(my_bool_number)[m
+ [m
+[31m-"""Cambio de variables[m
+[31m-of integer to text[m
+[32m+[m[32m"""[m
+[32m+[m[32mCambio de variables[m
+[32m+[m[32mof integer to text[m[41m [m
+ """[m
+ [m
+ my_int_to_str_variable = str(my_int_variable)[m
+[36m@@ -27,9 +28,21 @@[m [mprint(type(my_str_to_int_variable))[m
+ [m
+ # Concatenacion  de variable en un Print[m
+ [m
+[31m-print (my_bool_<number,my_str_to_int_variable,my_int_variable)[m
+[32m+[m[32mprint(my_bool_number, my_str_to_int_variable, my_int_variable)[m
+ [m
+ # len "funcion para validar el tamaño de la variable"[m
+ print(len(my_string_variable))[m
+ [m
+[32m+[m[32m# Variable en una sola línea[m
+[32m+[m
+[32m+[m[32mname, surname, alias, age = "Brayan", "Ortiz", "Dani", 26[m
+[32m+[m
+[32m+[m[32mprint("Me llamo", name, "Mi apellido es", surname, "Y me dicen", alias, "my age", age)[m
+[32m+[m
+[32m+[m[32m# Inputs pruebas[m
+[32m+[m
+[32m+[m[32mname = input("cuale es tu nombre?")[m
+[32m+[m[32msurname = input("cuale es tu surname?")[m
+[32m+[m[32mage = input("cuale es tu edad?")[m
+ [m
+[32m+[m[32mprint("nombre", name, "Apellido", surname, "Edad", age)[m
+[1mdiff --git a/CursoPython/Hola.py b/CursoPython/Hola.py[m
+[1mindex eda3127..dacfbfa 100644[m
+[1m--- a/CursoPython/Hola.py[m
+[1m+++ b/CursoPython/Hola.py[m
+[36m@@ -6,12 +6,6 @@[m [mPrimeras dos horas de curso de   https://www.youtube.com/watch?v=Kp4Mvapo5kc&t=1[m
+ [m
+ """[m
+ [m
+[31m-print("prueba hola mundo")[m
+[31m-[m
+[31m-Texto = "Hola mundo"[m
+[31m-[m
+[31m-print  (type(Texto))[m
+[31m-[m
+ # Operations[m
+ [m
+ print(2 + 3)   # addition(+)[m
+[36m@@ -23,15 +17,23 @@[m [mprint(3 % 2)   # modulus(%)[m
+ print(3 // 2)  # Floor division operator(//)[m
+ [m
+ # Checking data types[m
+[31m-[m
+[31m-print(type(10))                  # Int[m
+[31m-print(type(3.14))                # Float[m
+[31m-print(type(1 + 3j))              # Complex[m
+[31m-print(type('Asabeneh'))          # String[m
+[31m-print(type([1, 2, 3]))           # List[m
+[31m-print(type({'name':'Asabeneh'})) # Dictionary[m
+[31m-print(type({9.8, 3.14, 2.7}))    # Set[m
+[31m-print(type((9.8, 3.14, 2.7)))    # Tuple[m
+[31m-[m
+[31m-[m
+[31m-[m
+[32m+[m[32m# Different python data types[m
+[32m+[m[32m# Let's declare variables with various data types[m
+[32m+[m
+[32m+[m[32mfirst_name = 'Asabeneh'     # str[m
+[32m+[m[32mlast_name = 'Yetayeh'       # str[m
+[32m+[m[32mcountry = 'Finland'         # str[m
+[32m+[m[32mcity= 'Helsinki'            # str[m
+[32m+[m[32mage = 250                   # int, it is not my real age, don't worry about it[m
+[32m+[m
+[32m+[m[32m# Printing out types[m
+[32m+[m[32mprint(type('Asabeneh'))     # str[m
+[32m+[m[32mprint(type(first_name))     # str[m
+[32m+[m[32mprint(type(10))             # int[m
+[32m+[m[32mprint(type(3.14))           # float[m
+[32m+[m[32mprint(type(1 + 1j))         # complex[m
+[32m+[m[32mprint(type(True))           # bool[m
+[32m+[m[32mprint(type([1, 2, 3, 4]))     # list[m
+[32m+[m[32mprint(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict[m
+[32m+[m[32mprint(type((1,2)))                                              # tuple[m
+[32m+[m[32mprint(type(zip([1,2],[3,4])))                                   # set[m

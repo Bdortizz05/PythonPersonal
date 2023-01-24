@@ -39,8 +39,17 @@ print("Me llamo", name, "Mi apellido es", surname, "Y me dicen", alias, "my age"
 
 # Inputs pruebas
 
-name = input("cuale es tu nombre?")
-surname = input("cuale es tu surname?")
-age = input("cuale es tu edad?")
+# name = input("cuale es tu nombre?")
+# surname = input("cuale es tu surname?")
+# age = input("cuale es tu edad?")
 
 print("nombre", name, "Apellido", surname, "Edad", age)
+
+# Boleeanos Not-> Es para hacer la negacion del booleano actual 
+
+is_single = True
+print(type(is_single))
+is_single = False
+print(is_single)
+is_single = not is_single
+print(is_single)

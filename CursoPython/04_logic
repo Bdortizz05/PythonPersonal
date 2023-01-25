@@ -9,3 +9,7 @@ print('False and True =>', False and True)
 POTENTIAL = (5 ** 2)
 POTENTIALD = (4**2)
 print(POTENTIAL >= POTENTIALD and POTENTIAL < 6)
+
+# NOT  .>  Negación
+NEGACION = not (POTENTIAL >= POTENTIALD and POTENTIAL < 6)
+print(NEGACION)

@@ -14,3 +14,14 @@ print(3 - 4)
 print(3 * 4)
 print(3 / 4)
 print(5 ** 3)
+
+print("____")
+
+print(4 < (8-5))
+print((3 + 1j) == (3 + 1j))
+POTENTIAL = (5 ** 2)
+POTENTIALD = (4**2)
+print(POTENTIAL >= POTENTIALD)
+
+
+

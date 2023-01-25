@@ -1,0 +1,11 @@
+################### Operadores and y or #####################
+
+print("and")
+print('true and true =>', True and True)
+print('true and False =>', True and False)
+print('False and False =>', False and False)
+print('False and True =>', False and True)
+
+POTENTIAL = (5 ** 2)
+POTENTIALD = (4**2)
+print(POTENTIAL >= POTENTIALD and POTENTIAL < 6)

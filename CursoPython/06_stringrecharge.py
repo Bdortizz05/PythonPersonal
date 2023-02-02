@@ -32,9 +32,6 @@ print(text.startswith('he'))
 print(text.replace('she', 'he'))
 
 text_2 =  'este es un titulo'
-
 print(text_2.capitalize())
-
-print(text_2.title())
-
+print(text_2.title()) 
 print(text_2.islower())

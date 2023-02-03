@@ -1,11 +1,20 @@
 #
-
+import random
+option = ('papel', 'tijera', 'piedra')
+print(type(option))
+cpu = random.choice(option)
 COUNT_CPU = 0
 COUNT_USER = 0
 
 while True:
     player1 = (input('Ingrese "piedra, papel o tijera" player: '))
-    cpu = (input('Ingrese "piedra, papel o tijera" cpu: '))
+    player1 = player1.lower()
+    if player1 in option:
+        print('player -> ', player1)
+        print('cpu->', cpu)
+    else:
+        print('selecciones correctamente la opcion')
+        continue
 
     if cpu == "papel" and player1 == "tijera" or cpu == "piedra" and player1 == "papel" or cpu == "tijera" and player1 == "piedra":
         COUNT_USER += 1

@@ -1,9 +1,10 @@
 
-tup_names = ('BRAYAN', 'BRAYAN',  'DANILO', 'FELIPE','LUNA', 'VALERY')
+tup_names = ('BRAYAN', 'BRAYAN',  'DANILO', 'FELIPE', 'LUNA', 'VALERY')
 print(type(tup_names))
 # Verifica  si el nombre esta en la tupla
-print('BRAYAN' in tup_names) 
-# index(elemento): Devuelve el índice de la primera aparición de un elemento dado en la tupla.
+print('BRAYAN' in tup_names)
+
+# index(elemento): Devuelve el
 indexone = tup_names.index('DANILO')
 print(indexone)
 

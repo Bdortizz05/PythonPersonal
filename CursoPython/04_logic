@@ -1,4 +1,4 @@
-################## Operadores and y or #####################
+# ################# Operadores and y or #####################
 
 print("and")
 print('true and true =>', True and True)
